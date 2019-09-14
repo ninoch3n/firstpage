@@ -3,11 +3,26 @@
     padding: 0;
 }
 
-.center-image{
-    position: fixed;
+.menu{
+    height: 110px;
+    border: dotted grey;
+}
+
+.menu-text{
+    position: relative;
+    transform: translate(0, -50%);
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 115px;
+}
+
+.menu-text ul a{
+    margin-right: 13px;
+}
+
+.center-image{
+    position: relative;
+    margin: 5px;
+    float: left;
 }
 
 .image-rotation{
