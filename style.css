@@ -2,15 +2,24 @@
     margin: 0;
     padding: 0;
 }
-.content{
+
+.center-image{
     position: fixed;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 30px;
     top: 50%;
     left: 50%;
-
-    border: solid black;
-    padding: 200px;
+    transform: translate(-50%, -50%);
 }
 
+.image-rotation{
+    animation: rotate 2s linear infinite;
+}
+
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
